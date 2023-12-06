@@ -7,12 +7,18 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <h1>PHOTO GALLERY</h1>
-   
 
+    <form action="" method="get" class="search">
+        <input type="text" placeholder="Arama yap">
+        <button type="submit">Arama </button>
+    </form>
+   
     <div class="container mt-5">
         
      
@@ -20,23 +26,21 @@
             <div class="spinner-border text-primary" role="status">
                 <span class="sr-only">Yükleniyor...</span>
             </div>
+
+           
         </div>
-        <div class="row" id="gallery">           
+        <div class="row" id="gallery">  
+                     
         </div>
         <div id="error-message" class="text-center text-danger mt-3" style="display: none;">
             Resimler yüklenirken bir hata oluştu...
         </div>
     </div>
-   
-                    
-                    
-            
-     
-       
-    </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
+
