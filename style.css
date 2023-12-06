@@ -1,9 +1,8 @@
 body {
   
-  color: #9b1f1f; 
- 
-  
+  color:darkcyan;
   background-image: url('https://productimages.hepsiburada.net/s/10/375-375/8841349791794.jpg');
+  font-family: sans-serif;
 }
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,.1); 
@@ -70,8 +69,8 @@ body {
 
 
 footer {
-  background-color: #f8f9fa; /* Açık gri arka plan */
-  color: #333; /* Metin rengi */
+  background-color: #f8f9fa; 
+  color: #333;
   padding: 20px 0;
   text-align: center;
   font-size: 14px;
@@ -142,3 +141,67 @@ h1 {
     transform: translateY(-10px);
   }
 }
+
+.card img{opacity: 0;
+transition: all ease 0.5s;}
+
+.card:hover img {opacity:1;}
+
+
+.card .card-body{opacity:0;
+transition:all ease 0.5s;}
+
+.card:hover .card-body {opacity:1;}
+
+.card{
+  background-color:darkcyan;
+  transition:all ease 0.5s
+}
+
+.card:hover{
+  background-color: #f8f9fa;
+}
+
+form.search {
+  display: flex;
+}
+form.search input {
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0 15px;
+  flex: 1;
+  outline: 0;
+}
+form.search button {
+  height: 40px;
+  padding: 0 30px;
+  background: #393a3b;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+.fa {
+  font-size: 100px;
+  cursor: pointer;
+  
+  display: flex;
+}
+
+.fa:hover {
+  color:rgb(15, 61, 61);
+}
+
+
+
+
+
+  
